@@ -21,8 +21,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-7q6hj4x#mp^*tgf%=32%=a3r)b&x@#g6gai9p3iw&q!*8^3eox"
-LINE_CHANNEL_SECRECT = '2e7e226906bedf825001be3e00ce0c6a'
-LINE_Channel_Access_Token = 'M8L4RD3ok2e5d7/Ix6FrtTluk8r3gkX6S4xxoK0FXqj9h+unRR5s3UIKpS1hpPlRpb2Lwmp7N4GSh5KSepfCaw2sgU4NKHGSv+ynN5PD4UeQMpEbxOgumWAMQwrQZkgdB04t89/1O/w1cDnyilFU='
+LINE_CHANNEL_SECRET = '2e7e226906bedf825001be3e00ce0c6a'
+LINE_CHANNEL_ACCESS_TOKEN = '0edRzwxQOAndsp5jj421rZgM8L4RD3ok2e5d7/Ix6FrtTluk8r3gkX6S4xxoK0FXqj9h+unRR5s3UIKpS1hpPlRpb2Lwmp7N4GSh5KSepfCaw2sgU4NKHGSv+ynN5PD4UeQMpEbxOgumWAMQwrQZkgdB04t89/1O/w1cDnyilFU='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "bot",
+    
 ]
 
 MIDDLEWARE = [
